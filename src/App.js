@@ -12,8 +12,23 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">
-          <small>Coded by Alina Radu</small>
+        <footer>
+          Coded by{" "}
+          <a
+            href="https://alinaradu.art/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Alina Radu{" "}
+          </a>
+          {""} and is{" "}
+          <a
+            href="https://github.com/Radu-Alina/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
         </footer>
       </div>
     </div>
